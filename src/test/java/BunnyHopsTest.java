@@ -19,4 +19,11 @@ public class BunnyHopsTest {
 
         Assertions.assertEquals(7, result);
     }
+
+    @Test
+    public void oneHundredSteps() {
+        int result = bunnyHops.bunnyHops(100);
+
+        Assertions.assertEquals(7, result);
+    }
 }

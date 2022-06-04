@@ -15,15 +15,15 @@ public class BunnyHopsTest {
 
     @Test
     public void fourSteps() {
-        int result = bunnyHops.bunnyHops(4);
+        int result = bunnyHops.bunnyHops(3);
 
-        Assertions.assertEquals(7, result);
+        Assertions.assertEquals(4, result);
     }
 
     @Test
     public void oneHundredSteps() {
-        int result = bunnyHops.bunnyHops(100);
+        int result = bunnyHops.bunnyHops(50);
 
-        Assertions.assertEquals(7, result);
+        Assertions.assertEquals(906045778, result);
     }
 }

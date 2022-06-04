@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="BunnyHopsTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-06-04T15:34:46" hostname="TRON" time="0.012">
+<testsuite name="BunnyHopsTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2022-06-04T16:02:23" hostname="TRON" time="0.012">
   <properties/>
-  <testcase name="fourSteps()" classname="BunnyHopsTest" time="0.012"/>
+  <testcase name="zeroSteps()" classname="BunnyHopsTest" time="0.01"/>
+  <testcase name="oneHundredSteps()" classname="BunnyHopsTest" time="0.0"/>
+  <testcase name="fourSteps()" classname="BunnyHopsTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
